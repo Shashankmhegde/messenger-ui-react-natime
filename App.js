@@ -32,7 +32,7 @@ export default class App extends React.Component {
   display= () => {
       return(
       <View style={[styles.balloon, {alignSelf:'flex-end',backgroundColor: '#1084ff',maxWidth: 200}]}>
-      <Text style={{paddingTop: 5, color: 'white'}}>{this.state.value}</Text>
+      <Text style={{paddingTop: 5, color: 'white'}}>{this.state.message}</Text>
      <View
        style={[
        styles.arrowContainer,
